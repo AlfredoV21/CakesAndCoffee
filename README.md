@@ -1,11 +1,12 @@
-###Welcome to Cakes&Coffee repository! ☕
+### Welcome to Cakes&Coffee repository! ☕
+
 **What is Cakes&Coffee?**
 
 Cakes&Coffee is my first good website that I created with my knowledge of HTML, CSS and little JavaScript. Using the BEM structure in CSS. It is a website of a cafeteria with barista courses.
 
 Click here click [here](https://cakesandcoffee.netlify.app/ "here") to see the website.
 
-###Bienvenido al repositorio de Cakes&Coffee ☕
+### Bienvenido al repositorio de Cakes&Coffee ☕
 
 **¿Que es Cakes&Coffee?**
 
