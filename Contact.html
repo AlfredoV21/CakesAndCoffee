@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cakes&coffee</title>
+        <!--Prefetch-->
+        <link rel="prefetch" href="Our.html" as="document">
+        <!--Pre-load-->
+        <link rel="preload" href="CSS/normalize.css" as="style">
+        <link rel="stylesheet" href="CSS/normalize.css">
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" crossorigin="crossorigin" as="font">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+        <link rel="preload" href="CSS/StyleINDEX.css" as="style">
+        <link  rel="stylesheet" href="CSS/StyleINDEX.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="bar">
+                    <a class="logo" href="/INDEX.html">
+                        <h1 class="logo__name no-margin center-text">Cakes<span class="logo__bold">&coffee</span></h1>
+                    </a>
+                    <nav class="navigation">
+                        <a href="Our.html" class="navigation__link">Our</a>
+                        <a href="Courses.html" class="navigation__link">Courses</a>
+                        <a href="Contact.html" class="navigation__link">Contact</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="header__text">
+                <h2 class="no-margin">Good coffee with barista course </h2>
+                <p class="no-margin">Learn from de masters with the better recipes and tips</p>
+            </div>
+        </header> <!--.header-->
+
+        <main class="container ">
+            <h3 class="center-text no-margin h3edit">Contact</h3>
+            <h4 class="center-text no-margin h4edit">If you wanna more information about us or the courses, complete the fields and we'll send you an email</h4>
+            <div class="contact-bg"></div>
+            <form class="form">
+                <div class="camp">
+                    <label class="camp__label" for="name">Name</label>
+                    <input
+                        class="camp__field" 
+                        type="text" 
+                        placeholder="Your name" 
+                        id="name"
+                    >
+                </div>
+                <div class="camp">
+                    <label class="camp__label" for="email">E-mail</label>
+                    <input
+                        class="camp__field" 
+                        type="email" 
+                        placeholder="Your E-mal" 
+                        id="email"
+                    >
+                </div>
+                <div class="camp">
+                    <label class="camp__label" for="message">Message</label>
+                    <textarea id="message" class="camp__field camp__fiel--textarea"></textarea>
+                </div>
+                <div class="camp">
+                    <input
+                        type="submit" 
+                        value="send" 
+                        class="button primary-button sub-button"
+                    >
+                </div>
+            </form>
+        </main> <!--.container-->
+    </body>
+    <footer class="footer">
+       <div class="container">
+            <div class="bar">
+                <a class="logo" href="/INDEX.html">
+                    <h1 class="logo__name no-margin center-text">Cakes<span class="logo__bold">&coffee</span></h1>
+                </a>
+                <nav class="navigation">
+                    <a href="Our.html" class="navigation__link">Our</a>
+                    <a href="Courses.html" class="navigation__link">Courses</a>
+                    <a href="Contact.html" class="navigation__link">Contact</a>
+                </nav>
+            </div>
+       </div>
+    </footer> <!--.foooter-->
+</html>
